@@ -1,0 +1,85 @@
+.background {
+	background-image: url(../Images/background.jpg);
+	width: 100%;
+	height: 950px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.astronaut {
+
+	position: absolute;
+	top: 10px;
+	right: 50px;
+	transform: rotate(-30deg);
+	width: 160px;
+	height: 160px;
+	animation: astronaut 30s infinite;
+
+}
+
+
+
+@keyframes astronaut {
+
+0% {right: 100px;}
+100% {right: 1500px;}
+
+}
+
+
+
+.astronaut2 {
+
+	position: absolute;
+	top: 250px;
+	right: 300px;
+	transform: rotate(-5deg);
+	width: 140px;
+	height: 140px;
+	animation: astronaut2 30s infinite;
+
+}
+
+
+@keyframes astronaut2 {
+
+0% {right: 50px;}
+100% {right: 1550px;}
+
+}
+
+.blackhole {
+
+  position: absolute;
+	top: 550px;
+	left: 650px;
+	width: 350px;
+	height: 350px;
+	animation: blackhole 30s infinite;
+
+}
+
+ @keyframes blackhole {
+
+ 	0% { left: 100px; }
+ 	100% {left: 1500px;  }
+ }
+
+
+ .alien {
+ 	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 250px;
+	height: 250px;
+	animation: alien 10s infinite;
+
+ }
+
+
+ @keyframes alien {
+
+ 	0% { top: 1px; }
+ 	100% {top: 100px;  }
+ }
